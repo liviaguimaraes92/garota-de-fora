@@ -1,0 +1,26 @@
+.center {
+	text-aling: center;
+}
+
+.container {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.fonte {
+    color: white;
+}
+
+.color {
+    color: blanchedalmond;
+}
+
+.p1 {
+    font-size: 15px;
+}
+
+.jumbotron {
+    color:black
+}
