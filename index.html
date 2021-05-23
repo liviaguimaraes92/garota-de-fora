@@ -23,7 +23,7 @@
   <!--NavBar-->
   <div class="container"></div>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark center">
-    <a class="navbar-brand" href="#">Girl From Nowhere</a>
+    <a class="navbar-brand" href="#">  <link rel="icon" type="image/png" href="asserts/redes sociais/sangue.png"/> Girl From Nowhere</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -39,6 +39,16 @@
         </li>
         <li class="nav-item">
             <a class="nav-link disabled" href="#">Episodios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Temporadas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Temporada 1</a>
+              <a class="dropdown-item" href="#">Temporada 2</a>
+            </div>
           </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -68,6 +78,7 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -83,6 +94,9 @@
       <div class="carousel-item">
         <img class="d-block w-100" src="asserts/header/img3.png" alt="Terceiro Slide">
       </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="asserts/header/img4.png" alt="Quarto Slide">
+      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -96,7 +110,7 @@
   <!--/Carousel-->
 
   <!--Jumbotron-->
-  <div class="jumbotron jumbotron-fluid color">
+  <div class="jumbotron jumbotron-fluid color p-0">
       <p class="lead"><img class="d-block w-100" src="asserts/cabeçalho/roll1.png" alt="cabeçalho">
     </div>
   </div>
@@ -125,14 +139,61 @@
       </div>
 
       <div class="col-md-6">
-        <img class="card-img" src="asserts/fotovideo/foto1.png" alt="Imagem do card">
+        <img class="card-img" src="asserts/fotovideo/foto1.png" alt="nanno livro">
       </div>
     </div>
 
     <!--/Texto e Video-->
 
+ <img class="card-img" src="asserts/gifs/imagem1.gif" alt="gif">
+
+     <!--Cards-->
+     <h4 class="text-center text-white"> Sobre Girl From Nowhere </h4>
+     <br>
+     <br>
+     <br>
+
+  <div class="container">
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="asserts/img/escola.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text text-center">Nanno aparece em diferentes escolas e integra diferentes histórias. 
+            Sua calma calculada que logo se torna um sorriso histérico começa a nos perturbar conforme percebemos que 
+            ela não é alguém que veio trazer justiça a contextos onde professores estão se aproveitando de suas alunas 
+            ou estudantes cometeram algum erro que precisa ser reparado. </p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="asserts/img/escola2.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text text-center">As vezes, Nanno é justamente o elemento presente nas narrativas que provoca o desencadeamento 
+            de todo mal que ocorre com as pessoas envolvidas. Assim, a nova garota da escola é quase um sussurro influenciador, 
+            uma oportunidade para que seus colegas e mestres ofereçam o melhor ou o pior de si e sejam punidos conforme as 
+            escolhas que fazem.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="asserts/img/escola1.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <p class="card-text text-center">Em um momento, a eterna estudante parece justa e comemoramos o modo como castiga os adultos e jovens. 
+            Em outros, no entanto, ela é perversa e cruel, corrompendo-os e os punindo por isso — como uma entidade que realiza desejos, 
+            mas depois reprime seus súditos por terem pedido o que pediram e acabam tendo os piores resultados.</p>
+        </div>
+      </div>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      </div>
+    </div>
+    <!--/Cards-->
+
     <!--Formulário de contato-->
 
+    <br>
+    <br>
+    <br>
     <div class="row mb-5">
       <div class="col-md-12 text-white">
         <h4 class="text-center">
@@ -144,10 +205,15 @@
       <div class="col-md-6 text-white">
         <form>
           <div class="form-group">
+            <label for="exampleFormControlInput1">Nome</label>
+            <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="nome">
+          </div>
+
+          <div class="form-group">
             <label for="exampleFormControlInput1">Endereço de email</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
           </div>
-         
+
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Comentário</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -175,14 +241,14 @@
     <footer>
 
       <div class="row mb-3">
-        <div class="col-md-12 d-flex justify-content-center">
+        <div class="col-md-12 d-flex justify-content-center div class="container-fluid">
           
             <a href="https://www.facebook.com/liyuu.uke.7" target="_blank" class="p-3">
               <img class="tm-social" src="asserts/redes sociais/facebook.png" alt="Logo do Facebook">
             </a>
       
             <a href="https://www.linkedin.com/liviguimaraes92" target="_blank" class="p-3">
-              <img class="tm-social" src="asserts/redes sociais/linkedin.png" alt="Logo do Linkedin">
+              <img class="tm-social" src="asserts/redes sociais/linkedin.jpg" alt="Logo do Linkedin">
             </a>
       
             <a href="https://www.instagram.com/luvlivis" target="_blank" class="p-3">
@@ -192,7 +258,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 text-white">
           <p class="text-center">
             Todos os direitos reservados: Lívia Lima Guimarães &copy
           </p>
