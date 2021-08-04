@@ -36,8 +36,10 @@ link do projeto: https://liviaguimaraes92.github.io/garota-de-fora/
 
 🖱 Linguagens
 
-HTML5</
+HTML5
+<p>
 CSS3
+<p>
 JavaScript
 
 🎨 Projeto
